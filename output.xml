@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.1 on win32)" generated="2024-02-29T16:11:48.330031" rpa="false" schemaversion="5">
+<suite id="s1" name="Website" source="C:\Users\2201-00211\OneDrive - BlueBinaries Engineering and Solutions Ltd\Documents\RobotFramework\Website.robot">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2024-02-29T16:11:48.675081" level="INFO">I am inside Test Suite Setup</msg>
+<arg>message=I am inside Test Suite Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-29T16:11:48.675081" elapsed="0.000000"/>
+</kw>
+<test id="s1-t1" name="MyFirstTestcase" line="13">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2024-02-29T16:11:48.677935" level="INFO">I am inside Test Setup</msg>
+<arg>message=I am inside Test Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-29T16:11:48.677935" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-29T16:11:48.678931" level="INFO">Hello world</msg>
+<arg>Hello world</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-29T16:11:48.678931" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-02-29T16:11:48.680086" level="INFO">I am inside Test Teardown</msg>
+<arg>message=I am inside Test Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-29T16:11:48.680086" elapsed="0.000000"/>
+</kw>
+<tag>Smoke</tag>
+<status status="PASS" start="2024-02-29T16:11:48.675081" elapsed="0.007001"/>
+</test>
+<test id="s1-t2" name="MySecondTestcase" line="17">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2024-02-29T16:11:48.685254" level="INFO">I am inside Test Setup</msg>
+<arg>message=I am inside Test Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-29T16:11:48.684256" elapsed="0.000998"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-29T16:11:48.685254" level="INFO">I am inside in the 2nd test</msg>
+<arg>I am inside in the 2nd test</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-29T16:11:48.685254" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-02-29T16:11:48.686251" level="INFO">I am inside Test Teardown</msg>
+<arg>message=I am inside Test Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-29T16:11:48.686251" elapsed="0.000000"/>
+</kw>
+<tag>Regression</tag>
+<status status="PASS" start="2024-02-29T16:11:48.684256" elapsed="0.001995"/>
+</test>
+<test id="s1-t3" name="My Third Testcase" line="22">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2024-02-29T16:11:48.689244" level="INFO">I am inside Test Setup</msg>
+<arg>message=I am inside Test Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-29T16:11:48.689244" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-29T16:11:48.689782" level="INFO">I am inside in the 3rd test</msg>
+<arg>I am inside in the 3rd test</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-29T16:11:48.689782" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-02-29T16:11:48.689782" level="INFO">I am inside Test Teardown</msg>
+<arg>message=I am inside Test Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-29T16:11:48.689782" elapsed="0.000997"/>
+</kw>
+<tag>Monkey</tag>
+<status status="PASS" start="2024-02-29T16:11:48.688383" elapsed="0.002466"/>
+</test>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2024-02-29T16:11:48.691846" level="INFO">I am inside Test Suite Teardown</msg>
+<arg>message=I am inside Test Suite Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-29T16:11:48.691846" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-02-29T16:11:48.333600" elapsed="0.359244"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Monkey</stat>
+<stat pass="1" fail="0" skip="0">Regression</stat>
+<stat pass="1" fail="0" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Website">Website</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
