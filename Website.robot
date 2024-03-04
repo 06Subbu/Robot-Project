@@ -22,10 +22,13 @@ MySecondTestcase
 My Third Testcase
     [Tags]   Monkey
      Log     I am inside in the 3rd test 
-
 My Fourth Testcase
     [Tags]   Rgeression
      Log     I am inside in the 4th test   
+
+My Fifth Testcase
+    [Tags]   Explorating Testing
+     Log     I am inside in the 4th test    
         
 
 # Login With Valid Credentials
